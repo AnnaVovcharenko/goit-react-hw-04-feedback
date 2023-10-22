@@ -1,6 +1,6 @@
 
-
-const Statistics = ({state : {good, neutral, bad}, total, persentage}) =>{
+//const Statistics = ({state : {good, neutral, bad}, total, persentage})
+const Statistics = ({good, neutral, bad, total, persentage}) =>{ //прибираємо state 
     return(
         <div>
         <p>Good: {good}</p>
